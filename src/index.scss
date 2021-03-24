@@ -1,0 +1,18 @@
+@import '~normalize.css';
+@import '~@blueprintjs/core/lib/css/blueprint.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+.bp3-navbar-heading {
+  font-size: large;
+}
+
+.bp3-button-text {
+  font-size: large;
+}
+
+main {
+  margin: auto;
+  padding: 8px;
+  font-size: medium;
+  max-width: 1000px;
+}
