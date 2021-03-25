@@ -17,16 +17,16 @@ const App = (props: {}) => {
         <Navbar.Group align={Alignment.LEFT}>
           <Navbar.Heading>The Respiratory System</Navbar.Heading>
           <Navbar.Divider />
-          <NavLink to="/" className="bp3-button bp3-minimal">
+          <NavLink to="/respiratory-brochure/" className="bp3-button bp3-minimal">
             Home
           </NavLink>
-          <NavLink to="/attractions" className="bp3-button bp3-minimal">
+          <NavLink to="/respiratory-brochure/attractions" className="bp3-button bp3-minimal">
             Attractions
           </NavLink>
-          <NavLink to="/transport" className="bp3-button bp3-minimal">
+          <NavLink to="/respiratory-brochure/transport" className="bp3-button bp3-minimal">
             Transport
           </NavLink>
-          <NavLink to="/warnings" className="bp3-button bp3-minimal">
+          <NavLink to="/respiratory-brochure/warnings" className="bp3-button bp3-minimal">
             Warnings
           </NavLink>
         </Navbar.Group>
@@ -41,16 +41,16 @@ const App = (props: {}) => {
       </Navbar>
       <main>
         <Switch location={location}>
-          <Route exact path="/">
+          <Route exact path="/respiratory-brochure/">
             <Home />
           </Route>
-          <Route path="/attractions">
+          <Route path="/respiratory-brochure/attractions">
             <Attractions />
           </Route>
-          <Route path="/transport">
+          <Route path="/respiratory-brochure/transport">
             <Transport />
           </Route>
-          <Route path="/warnings">
+          <Route path="/respiratory-brochure/warnings">
             <Warnings />
           </Route>
         </Switch>
