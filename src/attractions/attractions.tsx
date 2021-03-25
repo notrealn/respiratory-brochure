@@ -41,11 +41,11 @@ export class Attractions extends React.Component {
         <img src={require('../../assets/lungs.png').default} alt="lungs diagram" />
         <p>
           <b>The Diaphragm Drop of Doom™</b>- A feat of engineering, this ride is what causes{' '}
-          <b>inhalation</b>
-          and <b>exhalation</b>. When the diaphragm falls and the ribs expand, it creates an area of
-          low pressure that causes the lungs to expand, sucking air into the <b>bronchi</b> and{' '}
-          <b>bronchioles</b>. When the ride is reset and the diaphragm goes up, it pushes the lungs
-          and ribs in creating an area of high pressure. This causes air to move out.
+          <b>inhalation</b> and <b>exhalation</b>. When the diaphragm falls and the ribs expand, it
+          creates an area of low pressure that causes the lungs to expand, sucking air into the{' '}
+          <b>bronchi</b> and <b>bronchioles</b>. When the ride is reset and the diaphragm goes up,
+          it pushes the lungs and ribs in creating an area of high pressure. This causes air to move
+          out.
         </p>
         <img src={require('../../assets/diaphram.png').default} alt="diaphram diagram" />
       </>
