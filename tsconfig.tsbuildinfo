@@ -1627,7 +1627,7 @@
         "affectsGlobalScope": false
       },
       "../src/attractions/attractions.tsx": {
-        "version": "8e473440659e91e4c60d87f5bbf1b7f95e9fa717aed164f367b7e176e2a1e958",
+        "version": "611d52fa1e9a913bfe42a19901447bec82360ec80716a281585b50023e8b8612",
         "signature": "982c72c4533892589cd0ec85ac689651a5e53bf282cf607ae09c458d1ec57105",
         "affectsGlobalScope": false
       },
