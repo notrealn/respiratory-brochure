@@ -7,8 +7,9 @@ export class Attractions extends React.Component {
       <>
         <h1>Attractions List</h1>
         <p>
-          The Pharynx is the entrance to LungLand™. People can enter from either the nose or the
-          mouth. It connects to the larynx for security.
+          The <b>Pharynx</b> is the entrance to LungLand™. People can enter from either the nose or
+          the mouth. It connects to the larynx for security. The <b>Nasal Cavity</b> Sauna warms and
+          moistens air as it is let in
         </p>
         <img src={require('../../assets/pharynx.png').default} alt="pharynx diagram" />
         <p>
