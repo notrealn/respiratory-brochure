@@ -1632,7 +1632,7 @@
         "affectsGlobalScope": false
       },
       "../src/home/home.tsx": {
-        "version": "9b358fb6b3c164d0497d9910d84a53fe854157afa56599dbe5aaf035454d4d2b",
+        "version": "9fad136e5f9e4ebccbaf2451682e80dbf4e9a90d9e6e3b5846f0fa8b66561257",
         "signature": "cf768e3071eabc9fb7e30e542506158c0d4a1bb5fe0fbeaa9fb8eb1d445966b1",
         "affectsGlobalScope": false
       },
