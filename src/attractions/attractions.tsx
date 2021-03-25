@@ -5,6 +5,7 @@ export class Attractions extends React.Component {
   render() {
     return (
       <>
+        <h1>Attractions List</h1>
         <p>
           The Pharynx is the entrance to LungLand™. People can enter from either the nose or the
           mouth. It connects to the larynx for security.
@@ -24,26 +25,29 @@ export class Attractions extends React.Component {
         </p>
         <p>
           The <b>Bronchi</b> connect air from the trachea to the lungs, branching out into smaller
-          <b>bronchioles</b> until they reach the alveoli. They supply air to the <b>lungs</b>.
+          &nbsp;<b>bronchioles</b> until they reach the alveoli. They supply air to the <b>lungs</b>
+          .
         </p>
         <img src={require('../../assets/lung-diagram.png').default} alt="lungs diagram" />
         <p>
           The <b>Lung</b> Volcanoes are the two organs in the body that are filled with air,
           expanding and contracting with <b>inhalation</b> and <b>exhalation</b>. It brings oxygen
           into the body while expelling waste products such as carbon dioxide. These mountains
-          exhale air with so much power that they need the pleural membrane to stop them from
+          exhale air with so much power that they need the <b>pleural membrane</b> to stop them from
           collapsing in on themselves. The double membrane of visceral and parietal pleura keeps the
           lung’s structure with the liquid between it, which creates surface tension and pulls the
           lungs out so they don’t fall in.
         </p>
         <img src={require('../../assets/lungs.png').default} alt="lungs diagram" />
         <p>
-          The Diaphragm Drop of Doom™- A feat of engineering, this ride is what causes inhalation
-          and exhalation. When the diaphragm falls and the ribs expand, it creates an area of low
-          pressure that causes the lungs to expand, sucking air into the bronchi and bronchioles.
-          When the ride is reset and the diaphragm goes up, it pushes the lungs and ribs in creating
-          an area of high pressure. This causes air to move out.
+          <b>The Diaphragm Drop of Doom™</b>- A feat of engineering, this ride is what causes{' '}
+          <b>inhalation</b>
+          and <b>exhalation</b>. When the diaphragm falls and the ribs expand, it creates an area of
+          low pressure that causes the lungs to expand, sucking air into the <b>bronchi</b> and{' '}
+          <b>bronchioles</b>. When the ride is reset and the diaphragm goes up, it pushes the lungs
+          and ribs in creating an area of high pressure. This causes air to move out.
         </p>
+        <img src={require('../../assets/diaphram.png').default} alt="diaphram diagram" />
       </>
     );
   }

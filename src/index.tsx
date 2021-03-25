@@ -1,10 +1,12 @@
 import { Alignment, AnchorButton, Classes, Navbar } from '@blueprintjs/core';
 import React from 'react';
-import { BrowserRouter, Route, Switch, useLocation } from 'react-router-dom';
+import { BrowserRouter, NavLink, Route, Switch, useLocation } from 'react-router-dom';
 import { renderApp } from '../src/util';
 import { Attractions } from './attractions/attractions';
 import { Home } from './home/home';
 import './index.scss';
+import { Transport } from './transport/transport';
+import { Warnings } from './warnings/warnings';
 
 const App = (props: {}) => {
   const location = useLocation();
@@ -15,8 +17,18 @@ const App = (props: {}) => {
         <Navbar.Group align={Alignment.LEFT}>
           <Navbar.Heading>The Respiratory System</Navbar.Heading>
           <Navbar.Divider />
-          <AnchorButton href="/" text="Home" minimal />
-          <AnchorButton href="/attractions" text="Attractions" minimal />
+          <NavLink to="/" className="bp3-button bp3-minimal">
+            Home
+          </NavLink>
+          <NavLink to="/attractions" className="bp3-button bp3-minimal">
+            Attractions
+          </NavLink>
+          <NavLink to="/transport" className="bp3-button bp3-minimal">
+            Transport
+          </NavLink>
+          <NavLink to="/warnings" className="bp3-button bp3-minimal">
+            Warnings
+          </NavLink>
         </Navbar.Group>
         <Navbar.Group align={Alignment.RIGHT}>
           <AnchorButton
@@ -35,8 +47,11 @@ const App = (props: {}) => {
           <Route path="/attractions">
             <Attractions />
           </Route>
-          <Route path="/page3">
-            <div>page 3</div>
+          <Route path="/transport">
+            <Transport />
+          </Route>
+          <Route path="/warnings">
+            <Warnings />
           </Route>
         </Switch>
       </main>
