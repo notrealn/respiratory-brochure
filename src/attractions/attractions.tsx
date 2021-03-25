@@ -20,9 +20,9 @@ export class Attractions extends React.Component {
           germs. The larynx leads into the <b>trachea</b>.
         </p>
         <p>
-          The <b>Trachea</b> is lined with many rings of cartilage and is lined with mucosa, making
-          the inside moist. It warms and moistens air before it enters the 2 <b>bronchi</b>. It is
-          also called the windpipe.
+          The <b>Trachea</b> Slide is made of many rings of cartilage and is lined with mucosa,
+          which makes the inside moist, it is also called the windpipe and it leads to the 2{' '}
+          <b>bronchi</b>.
         </p>
         <p>
           The <b>Bronchi</b> connect air from the trachea to the lungs, branching out into smaller
