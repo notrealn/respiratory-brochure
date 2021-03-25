@@ -12,6 +12,11 @@ export class Home extends React.Component {
           the stuff in the bar on top of the screen.
         </p>
         <p>Warning: this website was not built for phones and stuff will probably break</p>
+        <p>
+          Also if you reload the page on something that isnt the homepage, it might break. If that
+          happens just go back to https://notrealn.github.io/respiratory-brochure/. I could fix this
+          but im too lazy
+        </p>
       </>
     );
   }
